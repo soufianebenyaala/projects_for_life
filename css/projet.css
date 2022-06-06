@@ -1,0 +1,314 @@
+/* ******************* hero ********************************** */
+
+@media screen and (max-width: 540px) {
+  .hero .row{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero img {
+      margin-left: auto;
+      margin-right: auto;
+      width: 75vw;
+      
+  }
+}
+
+.hero  img {
+  margin: auto;
+  display: block;
+}
+
+.hero  span {
+  color: #0280A7;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-feature-settings: 'salt' on, 'liga' off;
+}
+
+.hero  h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 54px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #18191F;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.hero  p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #18191F;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.hero a {
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #F8AF3C;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* ******************* projects ********************************** */
+
+.projects {
+  background: #cbe7ed;
+}
+
+.projects .container .intro h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #474A57;
+}
+
+.projects .container .row .item h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #18191F;
+  flex: none;
+  order: 0;
+  align-self: flex-start;
+  flex-grow: 0;
+}
+
+.projects .container .row .item p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #18191F;
+  flex: none;
+  order: 1;
+  align-self: center;
+  flex-grow: 0;
+}
+
+.projects .container .row .item ol {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #18191F;
+  flex: none;
+  order: 1;
+  align-self: center;
+  flex-grow: 0;
+}
+
+/* ******************* actions ********************************** */
+
+@media screen and (max-width: 540px) {
+
+  .actions .row img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+      width: 90vw; 
+  }
+}
+.actions .intro {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #0280A7;
+}
+
+.actions .row .col-lg-4 {
+  margin-bottom: 10vh;
+}
+
+.actions .row .body {
+  max-width: 546px;
+  max-height: 541px;
+  width: 546px;
+  height: 541px;
+}
+.actions .row img {
+  width: 100%;
+}
+
+.actions .row .title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #18191F;
+}
+
+.actions .row .text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #18191F;
+}
+
+/* ******************* fondateurs ********************************** */
+
+.fondateurs .intro {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #0280A7;
+}
+
+
+/* ******************* footer ********************************** */
+
+
+
+.recrutement {
+  background: #4EA6C1;
+}
+
+.recrutement img {
+  max-width: 100%;
+
+}
+
+.recrutement h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #18191F;
+
+}
+
+.recrutement p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #18191F;
+
+}
+
+.recrutement button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 32px;
+  gap: 10px;
+  background: #D8E9ED;
+  border-radius: 6px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #0B0D17;
+
+}
+
+.footer {
+  background: #0280A7;
+}
+
+@media screen and (max-width: 540px) {
+  .footer .row h3{
+      padding-top: 40px;
+  }
+  .footer{
+    padding-left: 40px;
+}
+}
+
+.footer .row img {
+  max-width: 170px;
+  max-height: 74px;
+}
+
+.footer .row .social {}
+
+.footer .row .social a {
+  text-decoration: none;
+}
+
+.footer .row .social a:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer .row .social img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+
+.footer .row h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #EEF6EA;
+}
+
+.footer .row ul {
+  list-style: none;
+  line-height: 2.5;
+  padding: 0;
+}
+
+.footer .row ul a:hover {
+  opacity: 0.8;
+}
+
+.footer .row ul li a {
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #D9DBE1;
+}
+
+
+.footer .row input {}
