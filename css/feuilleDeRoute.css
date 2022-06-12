@@ -1,0 +1,216 @@
+/* ******************* hero ********************************** */
+
+@media screen and (max-width: 540px) {
+    .img-wrapper .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .img-wrapper img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 75vw;
+
+    }
+}
+
+.hero img {
+    margin: auto;
+    display: block;
+}
+
+.hero span {
+    color: #0280A7;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+
+.hero h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 54px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.hero p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.hero a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #F8AF3C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+
+/* *******************  table ********************************** */
+@media screen , (min-width: 390px) , (max-width: 1000px) and (min-width: 1000px) {
+.routs .row .col  .TagCommunaute {
+        margin-left: 1px;
+        padding: 5px 8px;
+        max-width: 150px;
+        max-height: 34px;
+        font-size: 15px;
+    
+    }
+    
+    .routs .row .col   .TagContenu {
+        margin-left: 1px;
+        padding: 5px 8px;
+        max-width: 115px;
+        max-height: 34px;
+        font-size: 15px;
+    }
+    
+    .routs .row .col  .TagAction {
+        margin-left: 1px;
+        padding: 5px 8px;
+        max-width: 100px;
+        max-height: 34px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 760px) and (max-device-width: 1024px)  {
+
+    .routs .row .statuts{
+        display: inline-flex;
+    }
+
+
+/* Force table to not be like tables anymore */
+table, thead, tbody, th, td, tr { 
+    display: block; 
+}
+
+
+}
+
+.routs .row .statuts{
+    display: inline-flex;
+}
+
+
+
+.TagCommunaute {
+    margin-right: 8px;
+    align-items: center;
+    padding: 5px 20px;
+    max-width: 175px;
+    max-height: 34px;
+    background-color: #0280A7;
+    border-radius: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #FFFFFF;
+}
+
+.TagContenu {
+    margin-right: 8px;
+    align-items: center;
+    padding: 5px 20px;
+    max-width: 130px;
+    max-height: 34px;
+    background-color: #00A89D;
+    border-radius: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #FFFFFF;
+}
+
+.TagAction {
+    margin-right: 8px;
+    align-items: center;
+    padding: 5px 20px;
+    max-width: 111px;
+    max-height: 34px;
+    background-color: #CEE8E8;
+    border-radius: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #0280A7;
+}
+
+.venirStatut {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #00A89D;
+}
+
+.enCoursStatut {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #4EC2BA;
+}
+
+.atteintStatut {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #F8AF3C;
+}
+
+.btn{
+    width: 100%;
+    border: none;
+    text-align: left;
+    color: #969BAB;
+    text-decoration-color: #969BAB;
+    -moz-text-decoration-color: #969BAB;
+}
+
+
