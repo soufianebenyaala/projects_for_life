@@ -9,10 +9,10 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/propos.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet"  type="text/css" href="css/main.css">
+    <link rel="stylesheet"  type="text/css" href="css/propos.css">
+    <link rel="stylesheet"  type="text/css" href="css/footer.css">
+    <link rel="stylesheet"  type="text/css" href="css/header.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,19 +33,20 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav -nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Accueil</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Feuille de route</a>
+                            <a class="nav-link" href="FeuilleDeRoute.html">Feuille de route</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">A propos de nous</a>
+                            <a class="nav-link" href="Apropos.html">A propos de nous</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">La plateforme</a>
+                            <a class="nav-link" href="https://proto.projectsforlife.org" target="_blank">La
+                                plateforme</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -102,7 +103,53 @@
             </div>
         </section>
         <!-- Quelques mots du porteur de projet -->
-        <section>
+        <section class="mots-porteur-project">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-1 col-lg-5 mots-porteur-project-title">
+                        <div class="row">
+                            <h1>Quelques mots du porteur de projet</h1>
+                        </div>
+                        <div class="row py-4"><img src="images/Image.png" alt=""></div>
+                    </div>
+                    <div class="col-sm-1 col-lg-7 mots-porteur">
+                        <div class="row align-items-center g-5 py-5">
+                            <div class="col-2 col-sm-1 col-lg-4 ">
+                                <img src="images/Icon-Translate.png" alt="Bootstrap Themes" loading="lazy">
+                            </div>
+                            <div class="col-lg-8">
+                                <h5 class="text-uppercase"><b> Qui suis-je?</b></h5>
+                                <p class="lead">Ingénieur de formation, père de 4 enfants, je travaille à temps plein dans
+                                    la sécurité informatique à Angers. Totalement désintéressé, j'essaye d'apporter ma
+                                    pierre à l'édifice pour mes enfants, l'Homme et la Vie en général !</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center g-5 py-5">
+                            <div class="col-2 col-sm-1 col-lg-4"><img src="images/Icon-Information.png" alt=""></div>
+                            <div class="col-lg-8">
+                                <h5 class="text-uppercase"><b>Qu'est-ce qui m'agace dans le monde actuel ?</b></h5>
+                                <p>L'intérêt personnel prime avant tout, pour beaucoup de personnes, alors qu'il y a
+                                    énormément de souffrance sur notre belle planète. De plus, les médias nous délivrent une
+                                    information parcellaire sur des problèmes ou actions d'intérêt général, sans réel suivi
+                                    ni réelle coordination possible entre les citoyens.</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center g-5 py-5">
+                            <div class="col-2 col-sm-1 col-lg-4"><img src="images/Icon-Invent.png" alt=""></div>
+                            <div class="col-lg-8">
+                                <h5 class="text-uppercase"><b>Pourquoi Projects for Life ?</b></h5>
+                                <p>Entre 2001 et 2009, j'ai eu plusieurs idées pour lutter contre des problèmes d'intérêt
+                                    général mais ces inventions existaient déjà... Je me suis alors dit qu'il y avait déjà
+                                    beaucoup de monde qui avait inventé des choses ou qui réalisait des actions pour
+                                    combattre ces problèmes. Mais il manquait un lieu centralisé, accessible à tous,
+                                    fédérateur, pour poser les problèmes, décrire l'existant (inventions, actions) et
+                                    essayer, ensemble, d'inventer de nouvelles choses ou réaliser de nouvelles actions.
+                                    C'est ainsi qu'est née l'idée de la plateforme Projects for Life !</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </section>
         <section class="container notre-equipe py-5">
@@ -125,7 +172,7 @@
                             </div>
                         </div>
                     </div>
-                   
+
                     <div class="row">
                         <div class="card  border-0">
                             <img class="bd-placeholder-img card-img-top" src="images/picture of Julien Legay.png"
@@ -193,7 +240,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="row">
                         <div class="card  border-0">
                             <img class="bd-placeholder-img card-img-top" src="images/picture of Feyrouz Kefi.png"
@@ -201,7 +248,7 @@
 
                             <div class="card-body">
                                 <h4><b>Feyrouz Kefi</b></h4>
-                                <p class="card-text">Community Manager depuis novembre 2021                                </p>
+                                <p class="card-text">Community Manager depuis novembre 2021 </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <img src="images/LinkedIn membres.jpg" width="32px" alt="LinkedIn logo">
@@ -234,7 +281,7 @@
         <!-- Ils font partie de la famille Projects for life -->
         <section class="famille">
             <div class="container">
-                <h1 class="title py-4" >Ils font partie de la famille Projects for life</h1>
+                <h1 class="title py-4">Ils font partie de la famille Projects for life</h1>
                 <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-4">
                     <div class="col">
                         <div class="card  border-0">
@@ -299,9 +346,9 @@
                                 <p class="card-text">
                                     Communication
                                     (de jan. à mai 2021)
-                                
+
                                 </p>
-                            </br>
+                                </br>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <img src="images/LinkedIn membres.jpg" width="32px" alt="LinkedIn logo">
