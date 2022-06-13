@@ -154,8 +154,8 @@
   width: 546px;
   height: 541px;
 }
-.actions .row img {
-  width: 100%;
+.image {
+  width: 80px;
 }
 
 .actions .row .title {
