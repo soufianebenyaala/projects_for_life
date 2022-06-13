@@ -1,3 +1,20 @@
+@media only screen and (max-width: 800px) {
+    .contact .row{
+        display: list-item;
+    }
+    .hero h1{
+        max-height: 260px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px !important;
+        line-height: 24px;
+        text-align: center;
+        color: #0B0D17;
+    }
+}
+
 .hero {
     margin-top: 5vh;
     margin-bottom: 2vh;
