@@ -125,11 +125,14 @@
         <!-- -->
         <section class="communaute nopadding">
             <div class="row flex-lg-row-reverse align-items-center">
-                <div class="col-6 col-sm-6 col-lg-6 nopadding">
-                    <img src="images/cover 1.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+                <div class="col-9 col-sm-9 col-lg-6 nopadding">
+                    <picture>
+                        <source media="(max-width: 1000px)" srcset="images/Communaute_mobile_cover.png">
+                        <img src="images/cover 1.png" class="d-block mx-lg-auto img-fluid images-web" alt="Bootstrap Themes"
                         loading="lazy">
+                      </picture>
                 </div>
-                <div class="col-4 col-sm-4 col-lg-5">
+                <div class="col-10 col-sm-9 col-lg-5">
                     <span>COMMUNAUTE</span>
                     <h1><b>Notre objectif</b></h1>
                     <p>Que l'on soit expert dans un domaine ou non, que l'on parle la même langue ou non, que l'on ait
@@ -152,28 +155,40 @@
                 <h1><b>Le 4 projets ProjectsForLife</b></h1>
             </div>
             <div class="row">
-                <div class="col-sm-3 col-md-3">
-                    <img src="images/Feature Icon with circle 1.png" alt="Feature 1" class="py-4">
-                    <h5><b>InformForLife</b></h5>
-                    <p>Poser les problèmes, décrire qui fait quoi pour les combattre et trouver des actions auxquelles
-                        vous pouvez participer.</p>
+                <div class="col-sm-3 col-md-3 project">
+                    <img src="images/Feature Icon with circle 1.png"  alt="Feature 1" class="py-4">
+                    <div>
+                        <h5><b>InformForLife</b></h5>
+                        <p>Poser les problèmes, décrire qui fait quoi pour les combattre et trouver des actions auxquelles
+                            vous pouvez participer.</p>
+                    </div>
+                    
                 </div>
-                <div class="col-sm-3 col-md-3">
+                <div class="col-sm-3 col-md-3  project">
                     <img src="images/Feature Icon with circle 2.png" alt="Feature 1" class="py-4">
-                    <h5><b>SolveForLife</b></h5>
-                    <p>Déterminer tous ensemble les meilleures actions à mener, en suivant un processus de résolution de
-                        problèmes</p>
+                    <div>
+                        <h5><b>SolveForLife</b></h5>
+                        <p>Déterminer tous ensemble les meilleures actions à mener, en suivant un processus de résolution de
+                            problèmes</p>
+                    </div>
+
                 </div>
-                <div class="col-sm-3 col-md-3">
+                <div class="col-sm-3 col-md-3  project">
                     <img src="images/Feature Icon with circle 3.png" alt="Feature 1" class="py-4">
-                    <h5><b>InventForLife</b></h5>
-                    <p>Inventer ensemble de nouvelles solutions (matérielles et immatérielles) pour lutter contre les
-                        problèmes</p>
+                    <div>
+                        <h5><b>InventForLife</b></h5>
+                        <p>Inventer ensemble de nouvelles solutions (matérielles et immatérielles) pour lutter contre les
+                            problèmes</p>
+                    </div>
+
                 </div>
-                <div class="col-sm-3 col-md-3">
-                    <img src="images/Feature Icon with circle 4.png" alt="Feature 1" class="py-4">
-                    <h5><b>TranslateForLife</b></h5>
-                    <p>Traduire les contenus de tous les projets dans un maximum de langues</p>
+                <div class="col-sm-3 col-md-3  project">
+                    <img src="images/Feature Icon with circle.png" alt="Feature 1" class="py-4">
+                    <div>
+                        <h5><b>TranslateForLife</b></h5>
+                        <p>Traduire les contenus de tous les projets dans un maximum de langues.</p>
+                    </div>
+
                 </div>
             </div>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start py-3">
@@ -189,20 +204,20 @@
                     <h1><b>Projects</b>For<b>Life en chiffre</b></h1>
                     <p>Nos réussites en quelques chiffres</p>
                 </div>
-                <div class="row  py-4">
-                    <div class="col-lg-3 border-right">
+                <div class="row">
+                    <div class="col-6 col-sm-6 col-lg-3  my-4 border-right">
                         <h1 class="chiffre">800 +</h1>
                         <p>Articles sur la plateformes</p>
                     </div>
-                    <div class="col-lg-3 border-right">
+                    <div class="col-6  col-sm-6 col-lg-3  my-4 border-right">
                         <h1 class="chiffre">60</h1>
                         <p>Membres actifs</p>
                     </div>
-                    <div class="col-lg-3  border-right">
+                    <div class="col-6  col-sm-6 col-lg-3  my-4  border-right">
                         <h1 class="chiffre">X</h1>
                         <p>Actions répertoriées</p>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-6 col-sm-6 col-lg-3 my-4">
                         <h1 class="chiffre">8</h1>
                         <p>Bénévoles engagés</p>
                     </div>
@@ -212,11 +227,12 @@
         </section>
 
         <section class="experimentation container col-xxl-8 py-5">
-            <div class="row flex-lg-row align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="images/Cricle BG.png" alt="FRAME">
-                </div>
-                <div class="col-lg-5 offset-lg-0">
+            <div class="container col-xxl-8 py-5">
+                <div class="row flex-lg-row align-items-center g-5 py-5">
+                  <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="images/Cricle BG.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy">
+                  </div>
+                  <div class="col-lg-6">
                     <span>LA PLATEFORME</span>
                     <h1><b>Première expérimentation</b></h1>
                     <p>Elle consiste à :</p>
@@ -227,10 +243,14 @@
                     </ul>
                     <p>Elle se concentre au niveau du Maine-et-Loire mais est ouverte à tous.</p>
                     <p>Un bilan sera effectué <b>fin janvier 2022.</b></p>
-                    <a href="https://proto.projectsforlife.org">Visiter la plateforme <i
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a href="https://proto.projectsforlife.org">Visiter la plateforme <i
                             class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                  </div>
                 </div>
-            </div>
+              </div>
         </section>
         <!-- Quelques mots du porteur de projet -->
         <section class="mots-porteur-project">
@@ -240,32 +260,32 @@
                         <div class="row">
                             <h1>Autres façons de nous aider</h1>
                         </div>
-                        <div class="row py-4"><img src="images/peeps.png" alt=""></div>
+                        <div class="row"><img src="images/peeps.png" class="mots-porteur-project-image" alt=""></div>
                     </div>
                     <div class="col-sm-1 col-lg-7 mots-porteur">
                         <div class="row align-items-center first-help">
-                            <div class="c col-sm-1 col-lg-4">
+                            <div class="col-4 col-sm-1 col-lg-4">
                                 <img src="images/Feature Icon with circle questionnaire.png" alt="Bootstrap Themes"
                                     loading="lazy">
                             </div>
-                            <div class="col-lg-8">
+                            <div class="col-7 col-lg-8">
                                 <h5 class="text-uppercase">Qui suis-je?</h5>
                                 <p>Cela ne vous prendra que 3 minutes de votre temps mais nous aidera énormément pour la
                                     suite du projet</p>
                             </div>
                         </div>
                         <div class="row align-items-center second-help">
-                            <div class="col-2 col-sm-1 col-lg-4"><img
+                            <div class="col-4 col-sm-1 col-lg-4"><img
                                     src="images/Feature Icon with circle information.png" alt=""></div>
-                            <div class="col-lg-8">
+                            <div class="col-7 col-lg-8">
                                 <h5 class="text-uppercase">Nous faire part de vos remarques ou idées</h5>
                                 <p>Nous croyons à l’intelligence collective et sommes ouverts à toutes vos idées.</p>
                             </div>
                         </div>
                         <div class="row align-items-center  third-help">
-                            <div class="col-2 col-sm-1 col-lg-4"><img src="images/Feature Icon with circle projet.png"
+                            <div class="col-4 col-lg-4"><img src="images/Feature Icon with circle projet.png"
                                     alt=""></div>
-                            <div class="col-lg-8">
+                            <div class="col-8 col-lg-8">
                                 <h5 class="text-uppercase">Parler de notre projet</h5>
                                 <p>Nous suivre sur les réseaux, partager nos publications ou tout simplement promouvoir
                                     notre projet.</p>
