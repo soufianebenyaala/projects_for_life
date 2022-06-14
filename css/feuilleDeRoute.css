@@ -1,17 +1,40 @@
 /* ******************* hero ********************************** */
 
-@media screen and (max-width: 540px) {
-    .img-wrapper .row {
+@media screen and (max-width: 1000px) {
+    .hero h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700 !important;
+        font-size: 20px !important;
+        line-height: 24px !important;
+        font-feature-settings: 'salt' on, 'liga' off;
+        color: #18191F;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .hero .row {
         display: flex;
         flex-direction: column-reverse;
     }
-
-    .img-wrapper img {
+    .hero img {
         margin-left: auto;
         margin-right: auto;
-        width: 75vw;
-
+        margin-top: 5vw;
+        width: 50vw;
+        
     }
+
+    p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400 !important;
+        font-size: 11px !important;
+        line-height: 16px !important;
+        color: #18191F;
+    }
+
 }
 
 .hero img {
@@ -71,25 +94,27 @@
 
 
 /* *******************  table ********************************** */
-@media screen , (min-width: 390px) , (max-width: 1000px) and (min-width: 1000px) {
-.routs .row .col  .TagCommunaute {
+@media screen,
+(min-width: 390px),
+(max-width: 1000px) and (min-width: 1000px) {
+    .routs .row .col .TagCommunaute {
         margin-left: 1px;
         padding: 5px 8px;
         max-width: 150px;
         max-height: 34px;
         font-size: 15px;
-    
+
     }
-    
-    .routs .row .col   .TagContenu {
+
+    .routs .row .col .TagContenu {
         margin-left: 1px;
         padding: 5px 8px;
         max-width: 115px;
         max-height: 34px;
         font-size: 15px;
     }
-    
-    .routs .row .col  .TagAction {
+
+    .routs .row .col .TagAction {
         margin-left: 1px;
         padding: 5px 8px;
         max-width: 100px;
@@ -97,22 +122,30 @@
         font-size: 15px;
     }
 }
-@media screen and (max-width: 760px) and (max-device-width: 1024px)  {
 
-    .routs .row .statuts{
+@media screen and (max-width: 760px) and (max-device-width: 1024px) {
+
+    .routs .row .statuts {
         display: inline-flex;
     }
 
 
-/* Force table to not be like tables anymore */
-table, thead, tbody, th, td, tr { 
-    display: block; 
+    /* Force table to not be like tables anymore */
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+
+
 }
 
 
-}
-
-.routs .row .statuts{
+.routs .row .statuts {
     display: inline-flex;
 }
 
@@ -204,7 +237,7 @@ table, thead, tbody, th, td, tr {
     color: #F8AF3C;
 }
 
-.btn{
+.btn {
     width: 100%;
     border: none;
     text-align: left;
@@ -212,5 +245,3 @@ table, thead, tbody, th, td, tr {
     text-decoration-color: #969BAB;
     -moz-text-decoration-color: #969BAB;
 }
-
-

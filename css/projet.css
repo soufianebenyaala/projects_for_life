@@ -1,18 +1,5 @@
 /* ******************* hero ********************************** */
 
-@media screen and (max-width: 540px) {
-  .hero .row{
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .hero img {
-      margin-left: auto;
-      margin-right: auto;
-      width: 75vw;
-      
-  }
-}
-
 .hero  img {
   margin: auto;
   display: block;
@@ -125,15 +112,7 @@
 
 /* ******************* actions ********************************** */
 
-@media screen and (max-width: 540px) {
 
-  .actions .row img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-      width: 90vw; 
-  }
-}
 .actions .intro {
   font-family: 'Poppins';
   font-style: normal;
@@ -187,6 +166,42 @@
   font-feature-settings: 'salt' on, 'liga' off;
   color: #0280A7;
 }
+
+
+
+@media screen and (max-width: 800px) {
+  .hero h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 24px !important;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+  .hero .row{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero img {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5vw;
+      width: 50vw;
+      
+  }
+
+  .actions .row img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+      width: 90vw; 
+  }
+}
+
 
 
 

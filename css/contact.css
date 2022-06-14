@@ -88,7 +88,7 @@ textarea{
     width: 450px;
 height: 365px;
 }
-button{
+.contact button{
     align-items: center;
     padding: 10px 20px;
     gap: 10px;
