@@ -90,44 +90,19 @@
         line-height: 16px !important;
         color: #18191F;
     }
-
-    .mots-porteur-project-title {
-        flex-direction: column;
+    .mots-porteur-project-title{
+        position: relative;
+    }
+    .mots-porteur-project-title h1{
+        max-width: 60vw;
+    }
+    .mots-porteur-project-image{
+        position: absolute;
+        max-width: 30vw;
+        top: 10vw;
+        right: 10vw;
     }
 
-    .mots-porteur-project {
-        width: auto;
-        height: 450px;
-        margin-bottom: 100vw;
-        background-color: #4EA6C1;
-    }
-
-    .mots-porteur-project .container {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .mots-porteur-project .container h1 {
-        max-width: 189px;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 24px;
-        font-feature-settings: 'salt' on, 'liga' off;
-        color: #FFFFFF;
-    }
-
-    .mots-porteur-project .container img {
-        width: 117px;
-        display: block;
-    }
-
-    .mots-porteur {
-        background-color: #B3D9E3;
-        padding-right: 50px;
-        padding-left: 50px;
-    }
 }
 
 @media only screen and (min-width: 1001px) {
