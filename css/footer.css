@@ -1,0 +1,382 @@
+.recrutement {
+  background: #4EA6C1;
+}
+
+.recrutement img {
+  max-width: 100%;
+}
+
+.recrutement h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #18191F;
+
+}
+
+.recrutement p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #18191F;
+
+}
+.recrutement-text{
+  padding: 80px;
+}
+
+.recrutement button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 32px;
+  gap: 10px;
+  background: #D8E9ED;
+  border-radius: 6px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #0B0D17;
+
+}
+
+.footer {
+  background: #0280A7;
+}
+
+@media screen and (max-width: 540px) {
+  .footer .row h3 {
+    padding-top: 40px;
+  }
+
+  .footer {
+    padding-left: 40px;
+  }
+}
+
+.footer .row img {
+  max-width: 170px;
+  max-height: 74px;
+}
+
+
+.footer .row .social a {
+  text-decoration: none;
+}
+
+.footer .row .social a:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer .row .social img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+
+.footer .row h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #EEF6EA;
+}
+
+.footer .row ul {
+  list-style: none;
+  line-height: 2.5;
+  padding: 0;
+}
+
+.footer .row ul a:hover {
+  opacity: 0.8;
+}
+
+.footer .row ul li a {
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-feature-settings: 'salt' on, 'liga' off;
+  color: #D9DBE1;
+}
+
+
+
+.box {
+  max-width: 300px;
+  width: auto;
+  height: 50px;
+  background-color: #4EA6C1;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.box>i {
+  font-size: 20px;
+  color: white;
+}
+
+.box>input {
+  flex: 1;
+  height: 40px;
+  background-color: #4EA6C1;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.box>input::placeholder {
+  color: white;
+  font-weight: 100;
+}
+@media screen and (min-width: 801px)  {
+  .social-mobile {
+    display: none;
+  }
+}
+@media screen and  (max-width: 800px) and (min-width: 501px) {
+    
+
+  .routs .row .col .TagCommunaute {
+    margin-left: 1px;
+    padding: 5px 8px;
+    max-width: 150px;
+    max-height: 34px;
+    font-size: 15px;
+
+  }
+
+  .routs .row .col .TagContenu {
+    margin-left: 1px;
+    padding: 5px 8px;
+    max-width: 115px;
+    max-height: 34px;
+    font-size: 15px;
+  }
+
+  .routs .row .col .TagAction {
+    margin-left: 1px;
+    padding: 5px 8px;
+    max-width: 100px;
+    max-height: 34px;
+    font-size: 15px;
+  }
+
+
+  .footer .row .social-mobile {
+    display: contents !important;
+
+
+  }
+
+  .footer .row .social-mobile img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50px  !important;
+    max-height: 50px !important;
+  }
+
+  .social {
+    display: none;
+  }
+
+
+  .recrutement h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    font-feature-settings: 'salt' on, 'liga' off;
+    
+    /* Text / Gray 900 */
+    
+    color: #18191F;
+  
+  }
+  .recrutement-text{
+    padding: 40px;
+  }
+  .recrutement-text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    line-height: 16px !important;
+    color: #18191F;
+}
+
+.recrutement button {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  
+  width: 147px;
+  height: 30px;
+  background: #D8E9ED;
+  border-radius: 6px;
+
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 10px;
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #0B0D17;
+  
+
+}
+
+
+  .recrutement .row{
+    position: relative;
+  }
+  
+  .recrutement img {
+    max-width: 35%;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+  
+  }
+}
+
+@media screen and  (max-width: 500px) {
+
+
+  .routs .row .col .TagCommunaute {
+    margin-left: 1px;
+    padding: 5px 8px;
+    max-width: 150px;
+    max-height: 34px;
+    font-size: 15px;
+
+  }
+
+  .routs .row .col .TagContenu {
+    margin-left: 1px;
+    padding: 5px 8px;
+    max-width: 115px;
+    max-height: 34px;
+    font-size: 15px;
+  }
+
+  .routs .row .col .TagAction {
+    margin-left: 1px;
+    padding: 5px 8px;
+    max-width: 100px;
+    max-height: 34px;
+    font-size: 15px;
+  }
+
+
+  .footer .row .social-mobile {
+    display: contents !important;
+
+
+  }
+
+  .footer .row .social-mobile img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50px  !important;
+    max-height: 50px !important;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .recrutement img {
+    max-width: 40%;
+    position: absolute;
+    top:  170px;
+    left: 200px;
+  
+  }
+  .recrutement h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    font-feature-settings: 'salt' on, 'liga' off;
+    
+    /* Text / Gray 900 */
+    
+    color: #18191F;
+  
+  }
+  .recrutement-text{
+    padding: 40px;
+  }
+  .recrutement-text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    line-height: 16px !important;
+    color: #18191F;
+}
+
+.recrutement button {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  
+  width: 147px;
+  height: 30px;
+  background: #D8E9ED;
+  border-radius: 6px;
+
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 10px;
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #0B0D17;
+  
+
+}
+
+.recrutement .row{
+  position: relative;
+}
+
+}
+
