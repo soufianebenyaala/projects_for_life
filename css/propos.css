@@ -79,9 +79,9 @@
         margin-right: auto;
         margin-top: 5vw;
         width: 50vw !important;
-        
+
     }
-    
+
     p {
         font-family: 'Poppins';
         font-style: normal;
@@ -90,18 +90,44 @@
         line-height: 16px !important;
         color: #18191F;
     }
-    .mots-porteur-project-title{
+
+
+
+    .mots-porteur-project-title {
         position: relative;
+        background-color: #0280A7;
     }
-    .mots-porteur-project-title h1{
-        max-width: 60vw;
+
+    .mots-porteur-project-title h1 {
+        max-width: 250px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        padding-top: 40px;
+        padding-left: 20px;
+
+
     }
-    .mots-porteur-project-image{
+
+    .mots-porteur-project-image {
         position: absolute;
         max-width: 30vw;
-        top: 10vw;
-        right: 10vw;
+        top: 30px;
+        right: 40px;
     }
+
+    .mots-porteur {
+        background-color: #B3D9E3;
+    }
+    .mots-porteur .row{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
 
 }
 
@@ -147,12 +173,27 @@
         padding-right: 50px;
         padding-left: 50px;
     }
+
 }
 
 
 
 
 /******************************************* notreequipe *****************************************************/
+
+@media only screen and (max-width: 1000px) {
+    .notre-equipe .card{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+    .notre-equipe .card img{
+        max-width: 150px;
+        height: auto;
+        width: auto;
+    }
+
+}
 .notre-equipe .title {
     font-family: 'Poppins';
     font-style: normal;
@@ -171,6 +212,16 @@
 
 /********************************************** famille **********************************************************/
 
+@media only screen and (max-width: 1000px) {
+.famille .title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 25px !important;
+    line-height: 24px !important;
+    color: #18191F;
+}
+}
 .famille {
     background: #D8E9ED;
     padding-top: 5vh;
